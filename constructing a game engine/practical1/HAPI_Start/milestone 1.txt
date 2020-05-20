@@ -1,0 +1,29 @@
+Martin Jones
+Milestone 1
+build version 0.1
+08/10/2018
+
+New Functionality
+speed of stars increase and decrease
+camera x and y increase and decrease
+eyedistance increase and decrease
+
+Code Additions
+Window Class
+window creation function
+window draw functions for rectangle, circle and text
+window clearing to black function
+window clearing to colour function
+Texture Class
+texture render functions and load funtion
+
+Tests
+render 10000 stars at the same time , runs but at less frames per second
+adjust screen width and height , runs fine
+tested higher and lower speeds , runs fine
+tested different eyedistance , runs fine
+tested different camera x and y , runs fine
+tested stars offscreen calling the draw function , no errors
+
+Notes
+need to finish off texture class and drawing alo need to optimise code a bit

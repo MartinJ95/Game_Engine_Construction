@@ -1,0 +1,67 @@
+Martin 	Jones
+T7099851
+Milestone4
+19/11/2018
+
+demo i aim to create:
+a 2d space shooter where the player can move around in space and enemies will come from any direction, the player will be able to move in any direction and shoot
+in the direction they are facing. the enemies will also have different types that will act differently.
+
+
+milestone 5 (world system)
+
+functionality from user point of view
+player can shoot bullets
+
+code changes
+world model system
+world entity base class
+player entity class
+bullet entity class
+
+tests
+test to see that code fully works after refractoring
+test to see if bullets die when outside screen
+test to see if player can shoot bullets with a key press
+
+milestone 6 (collisions)
+
+functionality from user point of view
+enemies will now spawn and shoot at the player
+enemies can be killed by the player's bullets
+
+code changes
+enemy entity class
+collision functions
+
+tests
+test the player and enemies can die when they run out of health
+test to see that bullets die when colliding
+
+milestone 7 (background)
+
+functionality from user point of view
+scrolling background that moves with the player to give the illusion that the player is travelling
+
+code changes
+background movement code
+background reset
+
+tests
+test to see if background moves accurately
+test to see if the background resets itself accurately
+
+milestone 8 (ui system)
+
+functionality from user point of view
+player special ability that charges up overtime
+
+code changes
+ui system
+player special abilty function
+progress bar for special ability function
+
+tests
+test to see that progress bar stops increasing after certain amount
+test to see that progress bar resets itself when activated
+test to see that special ability activates properly

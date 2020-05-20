@@ -1,0 +1,28 @@
+Martin Jones
+Milestone 2
+build version 0.2
+22/10/2018
+
+New Functionality
+-----------------
+texture loading and drawing
+texture error if not loaded and horrid pink for debbuging
+
+Code Additions
+--------------
+texture alpha drawing
+function to turn texture to horrid pink and error message saying what texture file is missing
+
+Tests
+-----
+moving off screen, doesnt come up with error and increases frame rate by a moderate amount, fps 500-550 while on screen, 550-600 while off screen
+try to load a texture of a file that doesnt exist, error comes up and says which file is missing and displays a horrid pink texture
+average fps 490-600
+second texture can move 8 directions
+second texture is drawn over the first using alpha
+no errors or warnings
+
+
+Notes
+-----
+need to further optimise functions as it can be sluggish especially drawing by pixel

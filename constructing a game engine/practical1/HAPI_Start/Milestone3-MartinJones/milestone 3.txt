@@ -1,0 +1,32 @@
+Martin Jones
+Milestone 3
+build version 0.3
+05/11/2018
+
+New Functionality
+-----------------
+xbox anologue movement
+animation
+xbox rumble if player is in the middle of screen
+
+
+Code Additions
+--------------
+rectangle class
+vector2 class
+changed blitting functions to work with frames for animation
+textures are now in the window class (going to be called visualisation)
+
+
+Tests
+-----
+test if frames play properly with only 1 x frame , works fine
+test if frames play properly with only 1 y frame , works fine
+test to see if xbox controller rumbles if in middle of screen , works fine
+average fps = 410 - 430 (220 - 300 when using xbox analogue stick) , around plus 100 fps difference when using xbox analogue stick in release
+
+
+Notes
+-----
+going to change window class to visualisation now that it holds both window and texture functionality
+need to go over commenting and deleting redundant code
